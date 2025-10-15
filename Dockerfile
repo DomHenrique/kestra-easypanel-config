@@ -3,3 +3,6 @@ FROM kestra/kestra:develop
 
 # 2. A MÁGICA: Troca o usuário padrão para 'root'
 USER root
+
+
+ENTRYPOINT ["/app/kestra"]
