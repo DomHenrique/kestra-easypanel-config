@@ -5,4 +5,3 @@ FROM kestra/kestra:develop
 USER root
 
 
-ENTRYPOINT ["/app/kestra"]
